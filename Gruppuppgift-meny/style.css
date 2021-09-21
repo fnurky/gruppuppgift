@@ -1,16 +1,25 @@
 body {
-  font-family: 'Emilys Candy', cursive;
+  font-family: 'Metal Mania', cursive;
 }
 
 /*meny med 6 kolumner*/
 header {
   display:grid;
-  background-color: #444;
-  color: white;
+  background-color: #000;
+  color: #fff;
   padding: 5em;
   font-size: 1em;
   text-align: center;
   grid-template-columns:repeat(6,1fr);
+  font-family:-apple-system, BlinkMacSystemFont, 'Open Sans';
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* class för den valda sidan i menyn*/
+.selected {
+  color:#f63c81;
+  text-decoration: underline;
 }
 /*header "bild"*/
 .wrapper1 {
