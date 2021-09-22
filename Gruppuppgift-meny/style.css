@@ -89,7 +89,7 @@ img {
 /*bild och artikel, 2 rader och 2 rader*/
 .wrapper3 {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,2fr);
     grid-gap: 1em;
     margin: 3em;
     grid-auto-rows: 150px;
