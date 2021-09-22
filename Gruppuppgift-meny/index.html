@@ -1,82 +1,67 @@
 <!DOCTYPE html>
 <!--kod som måste finnas-->
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet"> 
-    <!--titel-->
-    <title>Gruppuppgift</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+  <!--titel-->
+  <title>Gruppuppgift</title>
 </head>
 
 <body>
-<!--header med grid-->
-<header>
-  <div class="selected">Start</div>
-  <div>Bar & mat</div>
-  <div>Games</div>
-  <div><img src="logotyp.png" alt="Logotyp" width="80%"></div>
-  <div>Galleri</div>
-  <div>Kontakt</div>
-</header>
+  <!--header med grid-->
+  <header>
+    <div class="selected">Start</div>
+    <div> <a href="meny.html">Bar & mat</a></div>
+    <div><img src="logotyp.png" alt="Logotyp"></div>
+    <div>Games</div>
+    <div>Galleri</div>
+  </header>
 
-<!--en wrapper med grid-->
-<div class="wrapper1">
-  <div>Header</div>
-</div>
-
-<!--en wrapper med grid-->
-<div class="wrapper2";>
-<div class="box box1">
-  Navigation </div>
-<div class="box box2">
-  Artikel</div>
-<div class="box box3">
-  Artikel
-</div>
-</div>
-
-<!--en wrapper med grid-->
-<div class="wrapper3">
-    <div class="box box4">
-    Bild
+  <!--en wrapper med grid-->
+  <div class="wrapper1">
+    <div></div>
   </div>
-   <div class="box box5">
-     Artikel
-  </div>
-  <div class="box box6">
-    Artikel
-  </div>
-    <div class="box box7">
-    Bild</div>
-</div>
 
-<!--en wrapper med grid-->
-<div class="wrapper4";>
-<div class="box box8">
-  Event </div>
-<div class="box box9">
-  Event</div>
-<div class="box box10">
-  Event</div>
-  <div class="box box11">
-  Event</div>
-<div class="box box12">
-  Event</div>
-<div class="box box12">
-  Event </div>
-</div>
-
-<!--footer med grid-->
-<footer>
-  <div>Kontaktuppgifter</div>
-  <div>Kontaktuppgifter</div>
-  <div>Kontaktuppgifter</div>
-  <div>Kontaktuppgifter</div>
-</footer>
+  <!--en wrapper med grid-->
+  <div class="wrapper2" ;>
+    <div class="boxformside">
+    </div>
+    <div class="boxform">
+      <h3>Boka bord</h3>
+      <div class="forms">
+        Välj datum: <input name="date" type="date" placeholder="Select date" min="2018-10-22" max="2024-07-31">
+      </div>
+      <div class="forms">
+        Tid: <input name="time" type="time" placeholder="Select time">
+      </div>
+      <div class="forms">
+        Ditt namn: <input name="name" type="text" placeholder="Your name">
+      </div>
+      <div class="forms">Email: <input name="email" type="email" placeholder="Your email"></div>
+      <div class="forms">
+        Antal personer: <input name="number" type="number" placeholder="0" min="1" max="5">
+      </div>
+      <div>
+        <button type="button" onclick="alert('Förfrågan skickad.')">Se tillgänglighet</button>
+      </div>
+    </div>
+    <div class="boxformside">
+    </div>
+  </div>
+  
+  <!--footer med grid-->
+  <footer>
+    <div><h2>Kontaktuppgifter</h2><p>info@roq.com</p><p>070 123 45 67</p><p>Gyldéngatan 2, Stockholm</p></div>
+    <div><img src="logotyp.png" alt="Logotyp"></div>
+    <div><h2>Öppettider</h2><p>Måndag - fredag 10:00-22:00</p><p>Lördag 12:00 - 24:00</p><p>Söndag stängt</p></div>
+  </footer>
 </body>
+
 </html>
