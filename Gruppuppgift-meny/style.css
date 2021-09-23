@@ -7,7 +7,7 @@ body {
 header {
   display:grid;
   background-color: #000;
-  color: #fff;
+  color: #fff;  
   padding: 5em;
   font-size: 1em;
   text-align: center;
@@ -129,6 +129,7 @@ p {
 
 /*footer med kontaktuppgifter i 4 kolumner*/
 footer {
+  border-top: 1px dotted white;
   display: grid;
   background-color: #000;
   color: white;
